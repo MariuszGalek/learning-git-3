@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
 	margin: 0 auto;
 	max-width: 1200px;
 	background-color: #D9EFAE;
 	text-align: center;
+	font-family: "Lato", sans-serif;
 }
 .jumbotron {
 	background: url("https://images.unsplash.com/photo-1512747646639-ed824d861e0d?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center;
@@ -22,5 +24,15 @@ body {
 	}
 }
 .song {
-	height: 400px;
+	height: auto;
+	background-color: #8E8E03;
+	margin: 30px auto;
+	font-size: 20px;
+	padding: 10px 0;
+	max-width: 700px;
+	border-radius: 3%;
+	box-shadow: 3px 3px 5px #000;
+	p:nth-child(even) {
+		font-style: italic;
+		}
 }
